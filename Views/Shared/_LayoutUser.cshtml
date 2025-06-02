@@ -1,0 +1,352 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .imgbook {
+            transition: all Is ease-in;
+            width: 400px;
+        }
+
+            .imgbook: hover {
+                transform: scale(0.9);
+                cursor: pointer;
+            }
+
+        .imgsachbannhieu {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    @RenderBody()
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">SachOnline</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">TRANG CHỦ</a></li>
+                    <li><a href="#">GIỚI THIỆU</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">Người dùng<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Đăng ký</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Giỏ hàng (0)</a></li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Tìm kiếm">
+                    </div>
+                    <button type="submit" class="btn btn-default">Tìm</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="carousel" class="carousel slide">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
+                        <li data-target="#carousel" data-slide-to="4"></li>
+                        <li data-target="#carousel" data-slide-to="5"></li>
+                        <li data-target="#carousel" data-slide-to="6"></li>
+
+                        <!-- Tạo thêm 4 li tương tự -->
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-responsive" src="~/image/Slider/01.jpg" alt="thumb">
+                            <div class="carousel-caption">Quảng cáo 1</div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="~/image/Slider/02.jpg" alt="thumb">
+                            <div class="carousel-caption">Quảng cáo 2</div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="~/image/Slider/03.jpg" alt="thumb">
+                            <div class="carousel-caption">Quảng cáo 3</div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="~/image/Slider/04.jpg" alt="thumb">
+                            <div class="carousel-caption">Quảng cáo 4</div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="~/image/Slider/05.jpg" alt="thumb">
+                            <div class="carousel-caption">Quảng cáo 5</div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="~/image/Slider/06.jpg" alt="thumb">
+                            <div class="carousel-caption">Quảng cáo 6</div>
+                        </div>
+                        <!-- Thêm 4 hình tương tự -->
+                    </div>
+                    <a class="left carousel-control" href="#carousel" data-slide="prev"><span class="icon-prev"></span></a>
+                    <a class="right carousel-control" href="#carousel" data-slide="next"><span class="icon-next"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Phần thân trang -->
+    <div class="container">
+        <div class="row">
+            <!-- CHỦ ĐỀ và NHÀ XUẤT BẢN -->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <ul class="list-group">
+                    <li class="list-group-item active" style="font-weight:bold; text-align:center">SÁCH THEO CHỦ ĐỀ</li>
+                    <a href="#" class="list-group-item">Ngoại ngữ</a>
+                    <a href="#" class="list-group-item">Công nghệ thông tin</a>
+                    <a href="#" class="list-group-item">Luật</a>
+                    <a href="#" class="list-group-item">Văn học</a>
+                    <a href="#" class="list-group-item">Khoa học kỹ thuật</a>
+                    <a href="#" class="list-group-item">Nông nghiệp</a>
+                    <a href="#" class="list-group-item">Lịch sử, địa lý</a>
+                    <a href="#" class="list-group-item">Kinh tế</a>
+                    <a href="#" class="list-group-item">Nghệ thuật sống</a>
+                    <!-- .Tương tự cho phần SÁCH THEO NHÀ XUẤT BẢN -->
+                </ul>
+                <ul class="list-group">
+                    <li class="list-group-item active" style="font-weight:bold; text-align:center">SÁCH THEO NHÀ XUẤT BẢN</li>
+                    <a href="#" class="list-group-item">Nhà xuất bản Trẻ</a>
+                    <a href="#" class="list-group-item">NXB Thống kê</a>
+                    <a href="#" class="list-group-item">Kim Đồng</a>
+                    <a href="#" class="list-group-item">Đại học quốc gia</a>
+                    <a href="#" class="list-group-item">Văn hóa nghệ thuật</a>
+                    <a href="#" class="list-group-item">Văn Hóa</a>
+                    <a href="#" class="list-group-item">Lao động - Xã hội</a>
+                    <a href="#" class="list-group-item">Khoa học - Kĩ thuật</a>
+                    <!-- sách theo NXB -->
+                </ul>
+            </div>
+
+
+
+
+            <!-- SÁCH MỚI và Phân trang -->
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h2 class="text-center">SÁCH MỚI</h2>
+                <hr>
+                <div class="row text-center">
+                    <!-- Sản phẩm 1 -->
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+                        <div class="thumbnail">
+                            <img src="~/image/130499.jpg" alt="Thumbnail Image 1" class="img-responsive img-rounded imgbook">
+                            <div class="caption">
+                                <h3>Sản phẩm 1</h3>
+                                <p>Mô tả tóm tắt sản phẩm 1</p>
+                                <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+                        <div class="thumbnail">
+                            <img src="~/image/130318.jpg" alt="Thumbnail Image 1" class="img-responsive img-rounded imgbook">
+                            <div class="caption">
+                                <h3>Sản phẩm 2</h3>
+                                <p>Mô tả tóm tắt sản phẩm 2</p>
+                                <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+                        <div class="thumbnail">
+                            <img src="~/image/KT0001.jpg" alt="Thumbnail Image 1" class="img-responsive img-rounded imgbook">
+                            <div class="caption">
+                                <h3>Sản phẩm 3</h3>
+                                <p>Mô tả tóm tắt sản phẩm 3</p>
+                                <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+                        <div class="thumbnail">
+                            <img src="~/image/KT0002.jpg" alt="Thumbnail Image 1" class="img-responsive img-rounded imgbook">
+                            <div class="caption">
+                                <h3>Sản phẩm 4</h3>
+                                <p>Mô tả tóm tắt sản phẩm 4</p>
+                                <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+                        <div class="thumbnail">
+                            <img src="~/image/KT0003.jpg" alt="Thumbnail Image 1" class="img-responsive img-rounded imgbook">
+                            <div class="caption">
+                                <h3>Sản phẩm 5</h3>
+                                <p>Mô tả tóm tắt sản phẩm 5</p>
+                                <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+                        <div class="thumbnail">
+                            <img src="~/image/KT0004.jpg" alt="Thumbnail Image 1" class="img-responsive img-rounded imgbook">
+                            <div class="caption">
+                                <h3>Sản phẩm 6</h3>
+                                <p>Mô tả tóm tắt sản phẩm 6</p>
+                                <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sản phẩm 2 và 3 và tiếp theo ... -->
+                </div>
+                <!-- Phân trang -->
+                <nav class="text-center">
+                    <ul class="pagination">
+                        <li><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li class="disabled"><a href="#">5</a></li>
+                        <li><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!-- Sản phẩm bán nhiều -->
+    
+    <div class="container">
+        <h2 class="text-center">SÁCH BÁN NHIỀU</h2>
+        <div class="row">
+            <!-- Sản phẩm 1, 2, 3 -->
+            <div class="col-lg-6 col-md-6">
+                <div class="media-object-default">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img class="media-object imgsachbannhieu" src="~/image/TH004.jpg" alt="placeholder image"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Tên sản phẩm 1</h4>
+                            Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,...
+                        </div>
+                    </div>
+                    <!-- Sản phẩm 2 và 3 tương tự -->
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="media-object-default">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img class="media-object imgsachbannhieu" src="~/image/TH005.jpg" alt="placeholder image"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Tên sản phẩm 2</h4>
+                            Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,...
+                        </div>
+                    </div>
+                    <!-- Sản phẩm 2 và 3 tương tự -->
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="media-object-default">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img class="media-object imgsachbannhieu" src="~/image/TH006.jpg" alt="placeholder image"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Tên sản phẩm 3</h4>
+                            Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,...
+                        </div>
+                    </div>
+                    <!-- Sản phẩm 2 và 3 tương tự -->
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="media-object-default">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img class="media-object imgsachbannhieu" src="~/image/TH007.jpg" alt="placeholder image"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Tên sản phẩm 4</h4>
+                            Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,...
+                        </div>
+                    </div>
+                    <!-- Sản phẩm 2 và 3 tương tự -->
+                </div>
+            </div>
+            <b></b>
+            <div class="col-lg-6 col-md-6">
+                <div class="media-object-default">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img class="media-object imgsachbannhieu" src="~/image/TH008.jpg" alt="placeholder image"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Tên sản phẩm 5</h4>
+                            Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,...
+                        </div>
+                    </div>
+                    <!-- Sản phẩm 2 và 3 tương tự -->
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="media-object-default">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img class="media-object imgsachbannhieu" src="~/image/THCB.jpg" alt="placeholder image"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Tên sản phẩm 6</h4>
+                            Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,Mô tả chi tiết sản phẩm,...
+                        </div>
+                    </div>
+                    <!-- Sản phẩm 2 và 3 tương tự -->
+                </div>
+            </div>
+
+            <!-- Sản phẩm 4, 5, 6 -->
+
+        </div>
+        <hr>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container well">
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6 text-center">
+                <p>&copy; @DateTime.Now.Year - Nhà sách ABC. Alright Reserved</p>
+                <p>Website được phát triển để sử dụng làm bài tập thực hành môn Lập trình Web</p>
+                <p>Email: 2124802010521@student.tdmu.edu.vn</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <h5>Số lượng truy cập: @ApplicationInstance.Application["HitCounter"]</h5>
+                <h5>Số lượng online: @ApplicationInstance.Application["Online"]</h5>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>

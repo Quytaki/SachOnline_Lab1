@@ -1,0 +1,27 @@
+﻿@{ 
+ViewBag.Title = "Sách Bán Nhiều";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";   
+}
+
+
+@model List<NguyenAnhTuanSachOnline.SACH>
+
+<div class="container">
+    <h2>Sách Bán Nhiều</h2>
+    <div class="row">
+        @foreach (var sach in Model)
+        {
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="~/image/@sach.AnhBia" alt="@sach.TenSach" class="img-responsive imgbook">
+                    <div class="caption">
+                        <h3>@sach.TenSach</h3>
+                        <p>@sach.MoTa</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Thêm vào giỏ hàng</a></p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+

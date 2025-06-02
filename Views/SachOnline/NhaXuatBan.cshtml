@@ -1,0 +1,25 @@
+﻿@model List<NguyenAnhTuanSachOnline.NHAXUATBAN>
+
+@{
+    ViewBag.Title = "Nhà Xuất Bản";
+Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>Nhà Xuất Bản</h2>
+
+<div class="row">
+    @foreach (var nhaXuatBan in Model)
+    {
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    @nhaXuatBan.TenNXB
+                </div>
+                <div class="panel-body">
+                    <p>Địa chỉ: @nhaXuatBan.DiaChi</p>
+                    <p>Điện thoại: @nhaXuatBan.DienThoai</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
