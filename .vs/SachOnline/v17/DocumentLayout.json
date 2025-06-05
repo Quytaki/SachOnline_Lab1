@@ -86,11 +86,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -115,6 +119,10 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T06:55:19.853Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -176,7 +184,7 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_LayoutUser.cshtml",
               "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\_LayoutUser.cshtml",
               "RelativeToolTip": "Views\\Shared\\_LayoutUser.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAABRwDsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-05T06:23:19.883Z",
               "EditorCaption": ""
@@ -275,14 +283,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Model1.edmx [Diagram1]",
+              "Title": "Model1.edmx",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Models\\Model1.edmx",
               "RelativeDocumentMoniker": "Models\\Model1.edmx",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Models\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Models\\Model1.edmx",
+              "RelativeToolTip": "Models\\Model1.edmx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
               "WhenOpened": "2025-06-05T06:07:45.747Z",
-              "EditorCaption": " [Diagram1]"
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -331,7 +339,7 @@
               "RelativeDocumentMoniker": "Views\\Web.config",
               "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Web.config",
               "RelativeToolTip": "Views\\Web.config",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAIBJwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-06-05T04:33:42.974Z",
               "EditorCaption": ""
