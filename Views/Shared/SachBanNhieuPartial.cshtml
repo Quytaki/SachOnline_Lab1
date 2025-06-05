@@ -1,0 +1,22 @@
+﻿@model IEnumerable<SachOnline.Models.SACH>
+
+<h2 class="text-center">SÁCH BÁN NHIỀU</h2>
+<hr>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="border p-2 h-100 d-flex">
+                <div class="media">
+                    <div class="media-left mr-2">
+                        <img src="~/Images/@item.AnhBia" class="media-object img-thumbnail" style="width: 100px; height: auto;" alt="@item.TenSach" />
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading font-weight-bold">@item.TenSach</h5>
+                        <p class="small text-muted">@item.MoTa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
