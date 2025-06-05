@@ -6,6 +6,10 @@
 
 
 # ✅ Lab 02:
+## đối với bài lab 02, để xem bài làm tại thời điểm đó, chỉ cần
+- clone về như bình thường
+- sau đó gõ lệnh `git checkout 7192c7c` để chuyển về commit này
+- hoặc nhấn vào đây để download source code của bài lab02 : https://github.com/Quytaki/SachOnline_Lab1/archive/7192c7cd645a9578c110feacf80d6c4bba302b90.zip
 
 ## 🎯 Mục tiêu
 
