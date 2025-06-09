@@ -11,6 +11,9 @@
 - sau đó gõ lệnh `git checkout 7192c7c` để chuyển về commit này hoặc checkout nhánh `lab02`
 - hoặc nhấn vào đây để download source code của bài lab02 : https://github.com/Quytaki/SachOnline_Lab1/archive/7192c7cd645a9578c110feacf80d6c4bba302b90.zip
 
+- # ✅ Lab 03:
+- ## Với yêu cầu đầu tiên, do nó giống với lab02 nên chỉ cần lấy lab02 về là có đủ, đã update csdl nên cần nạp csdl vào database
+
 ## 🎯 Mục tiêu
 
 - Phát triển tiếp từ Lab 01 với cơ sở dữ liệu và layout có sẵn.
