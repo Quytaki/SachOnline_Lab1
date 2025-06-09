@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\sachonline\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\shared\\sachbannhieupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\shared\\sachbannhieupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\shared\\chudepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\shared\\chudepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -110,23 +110,12 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T06:55:19.853Z"
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SachTheoChuDe.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\SachTheoChuDe.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\SachTheoChuDe.cshtml",
@@ -140,6 +129,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T06:57:44.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:55:19.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SachBanNhieuPartial.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\SachBanNhieuPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\SachBanNhieuPartial.cshtml",
@@ -152,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NhaXuatBanPartial.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\NhaXuatBanPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\NhaXuatBanPartial.cshtml",
@@ -165,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SachTheoNhaXuatBan.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\SachTheoNhaXuatBan.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\SachTheoNhaXuatBan.cshtml",
@@ -178,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_LayoutUser.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\_LayoutUser.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LayoutUser.cshtml",
@@ -191,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SachOnlineController.cs",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\SachOnlineController.cs",
               "RelativeDocumentMoniker": "Controllers\\SachOnlineController.cs",
@@ -217,20 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-05T06:57:44.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "NavPartial.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\NavPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\NavPartial.cshtml",
@@ -243,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ChuDePartial.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\ChuDePartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\ChuDePartial.cshtml",
@@ -283,14 +283,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Model1.edmx",
+              "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Models\\Model1.edmx",
               "RelativeDocumentMoniker": "Models\\Model1.edmx",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Models\\Model1.edmx",
-              "RelativeToolTip": "Models\\Model1.edmx",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
               "WhenOpened": "2025-06-05T06:07:45.747Z",
-              "EditorCaption": ""
+              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
