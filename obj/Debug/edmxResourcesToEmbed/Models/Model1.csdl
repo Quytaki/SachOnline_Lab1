@@ -213,7 +213,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="SachOnlineEntities3" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="SachOnlineEntities4" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="ADMINs" EntityType="Self.ADMIN" />
     <EntitySet Name="CHITIETDATHANGs" EntityType="Self.CHITIETDATHANG" />
     <EntitySet Name="CHUDEs" EntityType="Self.CHUDE" />

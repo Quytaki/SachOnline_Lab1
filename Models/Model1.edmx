@@ -463,7 +463,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="SachOnlineEntities3" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="SachOnlineEntities4" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="ADMINs" EntityType="Self.ADMIN" />
           <EntitySet Name="CHITIETDATHANGs" EntityType="Self.CHITIETDATHANG" />
           <EntitySet Name="CHUDEs" EntityType="Self.CHUDE" />
@@ -509,7 +509,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="SachOnlineModelStoreContainer" CdmEntityContainer="SachOnlineEntities3">
+        <EntityContainerMapping StorageEntityContainer="SachOnlineModelStoreContainer" CdmEntityContainer="SachOnlineEntities4">
           <EntitySetMapping Name="ADMINs">
             <EntityTypeMapping TypeName="SachOnlineModel.ADMIN">
               <MappingFragment StoreEntitySet="ADMIN">

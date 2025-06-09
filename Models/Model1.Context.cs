@@ -13,10 +13,10 @@ namespace SachOnline.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class SachOnlineEntities3 : DbContext
+    public partial class SachOnlineEntities4 : DbContext
     {
-        public SachOnlineEntities3()
-            : base("name=SachOnlineEntities3")
+        public SachOnlineEntities4()
+            : base("name=SachOnlineEntities4")
         {
         }
     
