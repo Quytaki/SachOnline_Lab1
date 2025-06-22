@@ -34,9 +34,9 @@
     @RenderSection("customStyles", required: false)
 </head>
 <body>
-  
+
     <!-- Navbar -->
-    @Html.Action("NavParital", "SachOnline") 
+    @Html.Action("NavParital", "SachOnline")
 
     <!-- Slider -->
     @Html.Action("SliderPatial", "SachOnline")
@@ -57,15 +57,15 @@
                 @RenderBody()
             </div>
             <!-- Sản phẩm bán nhiều -->
-        
-            @{Html.RenderAction("SachBanNhieuPartial", "SachOnline");}
+
+            @RenderSection("SachBanNhieu", required: false)
 
             <!-- Sản phẩm 4, 5, 6 -->
 
         </div>
         <hr>
     </div>
-   
+
 
     <!-- Footer -->
     <footer class="container well">
@@ -83,5 +83,6 @@
     </footer>
     <!-- Custom scripts -->
     @RenderSection("customScripts", required: false)
+    @RenderSection("scripts", required: false)
 </body>
 </html>
