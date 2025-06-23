@@ -18,14 +18,21 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">Người dùng<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Đăng ký</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="~/User/DangNhap"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
+                        <li>
+                            <a href="@Url.Action("DangNhap", "User", new { url = Url.Action("Index", "SachOnline") })">
+                                <span class="glyphicon glyphicon-log-in"></span> Đăng nhập
+                            </a>
+                        </li>
                     </ul>
                 </li>
                 <!----  <li>Html.Action("GioHangPartial", "GioHang")</li> -->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            @Html.Action("LoginLogout", "SachOnline")
+            @Html.Action("GioHangPartial", "GioHang")
             </ul>
             <form class="navbar-form navbar-right" role="search">
                 <div class="form-group">

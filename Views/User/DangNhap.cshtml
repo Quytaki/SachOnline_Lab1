@@ -19,7 +19,7 @@
 <div style="display:flex; justify-content:center;align-items:center;text-align:center">
     <h4 style="color:red; text-align:center;">@ViewBag.ThongBao</h4>
     <table align="center">
-        @using (Html.BeginForm("DangNhap", "User"))
+        @using (Html.BeginForm("DangNhap", "User", new { url = ViewBag.Url }))
         {
             @Html.ValidationSummary(true)
             <tr>

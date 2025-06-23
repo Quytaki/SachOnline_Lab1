@@ -1,20 +1,59 @@
 ﻿@model IEnumerable<SachOnline.Models.SACH>
 
+<style>
+    .book-box {
+        height: 220px; /* cố định chiều cao để không lệch */
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 15px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .book-img {
+        width: 100px;
+        height: 140px;
+        object-fit: cover;
+    }
+
+    .book-info {
+        flex: 1;
+        overflow: hidden;
+    }
+
+    .book-title {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .book-desc {
+        font-size: 13px;
+        color: #555;
+        line-height: 1.4;
+        height: 60px; /* giới hạn chiều cao mô tả */
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>
+
 <h2 class="text-center">SÁCH BÁN NHIỀU</h2>
-<hr>
+<hr />
 <div class="row">
     @foreach (var item in Model)
     {
-        <div class="col-md-4 col-sm-6 mb-4">
-            <div class="border p-2 h-100 d-flex">
-                <div class="media">
-                    <div class="media-left mr-2">
-                        <img src="~/Images/@item.AnhBia" class="media-object img-thumbnail" style="width: 100px; height: auto;" alt="@item.TenSach" />
-                    </div>
-                    <div class="media-body">
-                        <h5 class="media-heading font-weight-bold">@item.TenSach</h5>
-                        <p class="small text-muted">@item.MoTa</p>
-                    </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="book-box">
+                <img src="~/Images/@item.AnhBia" class="book-img" alt="@item.TenSach" />
+                <div class="book-info">
+                    <div class="book-title">@item.TenSach</div>
+                    <div class="book-desc">@item.MoTa</div>
                 </div>
             </div>
         </div>

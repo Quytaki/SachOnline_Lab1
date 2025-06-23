@@ -160,3 +160,7 @@ E:\code\lt web\lab1\SachOnline\bin\EntityFramework.dll
 E:\code\lt web\lab1\SachOnline\bin\EntityFramework.xml
 E:\code\lt web\lab1\SachOnline\bin\EntityFramework.SqlServer.dll
 E:\code\lt web\lab1\SachOnline\bin\EntityFramework.SqlServer.xml
+E:\code\lt web\lab1\SachOnline\bin\PagedList.dll
+E:\code\lt web\lab1\SachOnline\bin\PagedList.Mvc.dll
+E:\code\lt web\lab1\SachOnline\bin\PagedList.xml
+E:\code\lt web\lab1\SachOnline\bin\PagedList.Mvc.xml

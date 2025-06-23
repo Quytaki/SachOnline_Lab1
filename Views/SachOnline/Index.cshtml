@@ -1,4 +1,5 @@
-﻿﻿@model IEnumerable<SachOnline.Models.SACH>
+﻿@model PagedList.IPagedList<SachOnline.Models.SACH>
+@using PagedList.Mvc;
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_LayoutUser.cshtml";
@@ -6,13 +7,29 @@
 <style type="text/css">
     .imgbook {
         transition: all 1s ease-in;
-        width: 400px;
+        width: 100%;
+        max-width: 400px;
     }
 
         .imgbook:hover {
             transform: scale(0.9);
             cursor: pointer;
         }
+
+    .pagination > li > a,
+    .pagination > li > span {
+        border-radius: 4px;
+        margin: 2px;
+        padding: 8px 12px;
+        color: #337ab7;
+        border: 1px solid #ddd;
+    }
+
+    .pagination > .active > span {
+        background-color: #337ab7;
+        color: white;
+        border-color: #337ab7;
+    }
 </style>
 
 <h2 class="text-center">SÁCH MỚI</h2>
@@ -22,41 +39,38 @@
     {
         <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
             <div class="thumbnail">
-                <img src="~/Images/@sach.AnhBia" alt="Thumbnail Image 1" class="img-responsive img-rounded imgbook " style="width:400px;">
+                <img src="~/Images/@sach.AnhBia" alt="@sach.TenSach" class="img-responsive img-rounded imgbook" />
                 <div class="caption">
                     <h4 style="min-height:70px;">
-                        <a href="@Url.Action("ChiTietSach","SachOnline", new { id = sach.MaSach})">@sach.TenSach</a>
+                        <a href="@Url.Action("ChiTietSach", "SachOnline", new { id = sach.MaSach })">@sach.TenSach</a>
                     </h4>
-
                     <p>
-                        <a href="@Url.Action("ThemGioHang","GioHang", new { ms = sach.MaSach, url =Request.Url.ToString() })"
+                        <a href="@Url.Action("ThemGioHang", "GioHang", new { ms = sach.MaSach, url = Request.Url.ToString() })"
                            class="btn btn-primary" role="button">
-                            <span class="glyphicon glyphicon-shopping-cart" aria- hidden=></span> Add to Cart
+                            <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart
                         </a>
                     </p>
-
                 </div>
             </div>
         </div>
     }
-
-    <nav class="text-center">
-        <!-- Add class .pagination-lg for larger blocks or .pagination-sm for smaller blocks-->
-        <ul class="pagination">
-            <li> <a href="#" aria-label="Previous"> <span aria-hidden="true">&laquo;</span> </a> </li>
-            <li class="active"><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li class="disabled"><a href="#">5</a></li>
-            <li>
-                <a href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
 </div>
-@section SachBanNhieu{
+
+<!-- Phân trang -->
+<div class="text-center">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }),
+        new PagedListRenderOptions
+        {
+            DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+            DisplayLinkToLastPage = PagedListDisplayMode.Always,
+            DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+            DisplayLinkToNextPage = PagedListDisplayMode.Always,
+            DisplayLinkToIndividualPages = true,
+            MaximumPageNumbersToDisplay = 5,
+            LiElementClasses = new[] { "page-item" }
+        })
+</div>
+
+@section SachBanNhieu {
     @Html.Action("SachBanNhieuPartial", "SachOnline")
 }

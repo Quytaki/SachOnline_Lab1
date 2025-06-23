@@ -1,0 +1,125 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    @Styles.Render("~/Content/Admin/css")
+    <style>
+        body {
+            background: #f2f2f2;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px 40px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+            .login h4 {
+                margin-bottom: 30px;
+                color: #333;
+                text-align: center;
+            }
+
+            .login label {
+                display: block;
+                margin-bottom: 8px;
+                font-weight: 600;
+                color: #555;
+            }
+
+            .login input[type="text"],
+            .login input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+                border-radius: 6px;
+                border: 1px solid #ccc;
+                transition: 0.3s;
+            }
+
+                .login input[type="text"]:focus,
+                .login input[type="password"]:focus {
+                    border-color: #007bff;
+                    outline: none;
+                }
+
+            .login .rLink {
+                float: right;
+                font-size: 0.9em;
+                text-decoration: none;
+                color: #007bff;
+            }
+
+                .login .rLink:hover {
+                    text-decoration: underline;
+                }
+
+            .login footer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .login input[type="submit"] {
+                background: #007bff;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+                .login input[type="submit"]:hover {
+                    background: #0056b3;
+                }
+
+            .login input[type="checkbox"] {
+                margin-right: 5px;
+            }
+
+            .login p {
+                color: red;
+                font-style: italic;
+                margin: 10px 0;
+                text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <form action="~/Admin/Login/Index" method="post" class="box login">
+        <fieldset class="boxBody">
+            <h4>LOGIN ADMIN</h4>
+
+            <label>Username</label>
+            <input type="text" name="UserName" placeholder="Type your username" required>
+
+            <label>
+                Password
+                <a href="#" class="rLink" tabindex="5">Forgot password?</a>
+            </label>
+            <input type="password" name="Password" placeholder="Type your password" required>
+
+            <p>@ViewBag.ThongBao</p>
+        </fieldset>
+        <footer>
+            <label><input type="checkbox" tabindex="3">Keep me logged in</label>
+            <input type="submit" class="btnLogin" value="Login" tabindex="4">
+        </footer>
+    </form>
+</body>
+</html>

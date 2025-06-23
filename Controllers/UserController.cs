@@ -1,12 +1,13 @@
-﻿using System;
+﻿using SachOnline.Models;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using System.Security.Policy;
 using System.Web;
 using System.Web.Mvc;
-using SachOnline.Models;
 
 namespace SachOnline.Controllers
 {
@@ -22,8 +23,9 @@ namespace SachOnline.Controllers
         }
 
         [HttpGet]
-        public ActionResult DangNhap()
+        public ActionResult DangNhap(string url) 
         {
+            ViewBag.Url = url; 
             return View();
         }
 
@@ -100,10 +102,11 @@ namespace SachOnline.Controllers
         }
 
         [HttpPost]
-        public ActionResult DangNhap(FormCollection collection)
+        public ActionResult DangNhap(FormCollection collection, string url)
         {
             var sTenDN = collection["TenDN"];
             var sMatKhau = collection["MatKhau"];
+
             if (String.IsNullOrEmpty(sTenDN))
             {
                 ViewData["Err1"] = "Bạn chưa nhập tên đăng nhập";
@@ -119,14 +122,18 @@ namespace SachOnline.Controllers
 
                 if (kh != null)
                 {
-                    ViewBag.ThongBao = "Chúc mừng bạn đã đăng nhập thành công";
                     Session["TaiKhoan"] = kh;
-                    return RedirectToAction("GioHang", "GioHang");
+
+                    // ✅ Nếu có url được truyền → quay lại đó
+                    if (!string.IsNullOrEmpty(url))
+                        return Redirect(url);
+
+                    // ❗ Nếu không có thì mặc định quay về Trang chủ
+                    return RedirectToAction("Index", "SachOnline");
                 }
                 else if (admin != null)
                 {
-                    ViewBag.ThongBao = "Chúc mừng bạn đã đăng nhập thành công";
-                    Session["Admin"] = kh;
+                    Session["Admin"] = admin;
                     return RedirectToAction("Index", "Home", new { area = "Admin" });
                 }
                 else

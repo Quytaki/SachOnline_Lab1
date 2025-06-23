@@ -1,4 +1,6 @@
-﻿using SachOnline.Models;
+﻿using PagedList;
+using PagedList.Mvc;
+using SachOnline.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,10 +17,13 @@ namespace SachOnline.Controllers
             return db.SACHes.OrderByDescending(a => a.NgayCapNhat).Take(count).ToList();
         }
         // GET: SachOnline
-        public ActionResult Index()
+        public ActionResult Index(int? page)
         {
-            var listSachMoi = LaySachMoi(6);
-            return View(listSachMoi);
+            int pageSize = 6;  // số sách mỗi trang
+            int pageNum = page ?? 1; // số trang hiện tại (mặc định là 1)
+
+            var listSachMoi = db.SACHes.OrderByDescending(s => s.NgayCapNhat);
+            return View(listSachMoi.ToPagedList(pageNum, pageSize));
         }
         public ActionResult ChuDePartial()
         {
@@ -36,16 +41,27 @@ namespace SachOnline.Controllers
             return PartialView("SachBanNhieuPartial", sachBanNhieu);
 
         }
-        public ActionResult SachTheoChuDe(int id)
+        public ActionResult SachTheoChuDe(int id, int? page)
         {
-            var sach = from s in db.SACHes where s.MaCD == id select s;
+            int pageSize = 6;
+            int pageNum = page ?? 1;
+
+            var sach = db.SACHes.Where(s => s.MaCD == id)
+                                .OrderByDescending(s => s.NgayCapNhat)
+                                .ToPagedList(pageNum, pageSize);
+
+            ViewBag.MaChuDe = id; // để giữ lại khi tạo link phân trang
             return View(sach);
         }
-        public ActionResult SachTheoNhaXuatBan(int id)
+        public ActionResult SachTheoNhaXuatBan(int id, int? page)
         {
-            var sach = from s in db.SACHes where s.MaNXB == id select s;
+            int pageSize = 6;
+            int pageNum = (page ?? 1);
+            var sach = db.SACHes.Where(s => s.MaNXB == id).OrderBy(s => s.MaSach).ToPagedList(pageNum, pageSize);
+            ViewBag.MaNXB = id;
             return View(sach);
         }
+
         public ActionResult ChiTietSach(int id)
         {
             var sach = from s in db.SACHes where s.MaSach == id select s;
@@ -58,6 +74,10 @@ namespace SachOnline.Controllers
         public ActionResult SliderPatial()
         {
             return PartialView("SliderPatial");
+        }
+        public ActionResult LoginLogout()
+        {
+            return PartialView();
         }
     }
 }

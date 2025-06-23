@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Kết quả thanh toán";
+}
+
+<h2>Kết quả thanh toán</h2>
+
+<p><strong>Thông báo:</strong> @ViewBag.Message</p>
+<p><strong>Mã đơn hàng:</strong> @ViewBag.OrderId</p>
+<p><strong>Mã lỗi:</strong> @ViewBag.ErrorCode</p>
+
+<a href="@Url.Action("Index", "SachOnline")">Quay về trang chủ</a>
