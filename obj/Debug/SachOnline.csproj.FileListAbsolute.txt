@@ -164,3 +164,13 @@ E:\code\lt web\lab1\SachOnline\bin\PagedList.dll
 E:\code\lt web\lab1\SachOnline\bin\PagedList.Mvc.dll
 E:\code\lt web\lab1\SachOnline\bin\PagedList.xml
 E:\code\lt web\lab1\SachOnline\bin\PagedList.Mvc.xml
+E:\code\lt web\lab1\SachOnline\bin\BCrypt.Net-Next.dll
+E:\code\lt web\lab1\SachOnline\bin\System.Buffers.dll
+E:\code\lt web\lab1\SachOnline\bin\System.Memory.dll
+E:\code\lt web\lab1\SachOnline\bin\System.Numerics.Vectors.dll
+E:\code\lt web\lab1\SachOnline\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\code\lt web\lab1\SachOnline\bin\BCrypt.Net-Next.xml
+E:\code\lt web\lab1\SachOnline\bin\System.Buffers.xml
+E:\code\lt web\lab1\SachOnline\bin\System.Memory.xml
+E:\code\lt web\lab1\SachOnline\bin\System.Numerics.Vectors.xml
+E:\code\lt web\lab1\SachOnline\bin\System.Runtime.CompilerServices.Unsafe.xml

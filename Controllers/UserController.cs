@@ -47,7 +47,9 @@ namespace SachOnline.Controllers
             var sDiaChi = collection["DiaChi"];
             var sEmail = collection["Email"];
             var sDienThoai = collection["DienThoai"];
-            var dNgaySinh = String.Format("{0:MM/dd/yyyy}", collection["NgaySinh"]);
+            var sNgaySinh = collection["NgaySinh"];
+
+            // Kiểm tra rỗng
             if (String.IsNullOrEmpty(sHoTen))
             {
                 ViewData["err1"] = "Họ tên không được rỗng";
@@ -56,6 +58,10 @@ namespace SachOnline.Controllers
             {
                 ViewData["err2"] = "Tên đăng nhập không được để rỗng";
             }
+            else if (sTenDN.Contains(" "))
+                ViewData["err2"] = "Tên đăng nhập không được chứa khoảng trắng";
+            else if (!System.Text.RegularExpressions.Regex.IsMatch(sTenDN, @"^[a-zA-Z0-9_]{6,20}$"))
+                ViewData["err2"] = "Tên đăng nhập phải từ 6–20 ký tự, chỉ gồm chữ, số và dấu gạch dưới";
             else if (String.IsNullOrEmpty(sMatKhau))
             {
                 ViewData["err3"] = "Phải nhập mật khẩu";
@@ -64,37 +70,50 @@ namespace SachOnline.Controllers
             {
                 ViewData["err4"] = "Phải nhập lại mật khẩu";
             }
-            else if (String.IsNullOrEmpty(sMatKhauNhapLai))
+            else if (sMatKhau != sMatKhauNhapLai)
             {
                 ViewData["err4"] = "Mật khẩu nhập lại không khớp";
             }
+            // 🔐 Kiểm tra độ mạnh mật khẩu
+            else if (sMatKhau.Length < 8 ||
+                     !sMatKhau.Any(char.IsUpper) ||
+                     !sMatKhau.Any(ch => !char.IsLetterOrDigit(ch)))
+            {
+                ViewData["err3"] = "Mật khẩu phải có ít nhất 8 ký tự, 1 chữ hoa và 1 ký tự đặc biệt";
+            }
             else if (String.IsNullOrEmpty(sEmail))
             {
-                ViewData["err5"] = "Email không được rỗng ";
+                ViewData["err5"] = "Email không được rỗng";
             }
             else if (String.IsNullOrEmpty(sDienThoai))
             {
                 ViewData["err6"] = "Số điện thoại không được rỗng";
             }
-            else if (db.KHACHHANGs.SingleOrDefault(n => n.TaiKhoan == sTenDN) != null)
+            else if (db.KHACHHANGs.Any(n => n.TaiKhoan == sTenDN))
             {
                 ViewBag.ThongBao = "Tên đăng nhập đã tồn tại";
             }
-            else if (db.KHACHHANGs.SingleOrDefault(n => n.Email == sEmail) != null)
+            else if (db.KHACHHANGs.Any(n => n.Email == sEmail))
             {
-                ViewBag.ThongBao = "Email đã được sử dụng!!! ";
+                ViewBag.ThongBao = "Email đã được sử dụng";
             }
             else
             {
+                // Gán thông tin
                 kh.HoTen = sHoTen;
                 kh.TaiKhoan = sTenDN;
-                kh.MatKhau = sMatKhau;
+
+                // ✅ Băm mật khẩu với BCrypt
+                kh.MatKhau = BCrypt.Net.BCrypt.HashPassword(sMatKhau);
+
                 kh.Email = sEmail;
                 kh.DiaChi = sDiaChi;
                 kh.DienThoai = sDienThoai;
-                kh.NgaySinh = DateTime.Parse(dNgaySinh);
+                kh.NgaySinh = DateTime.Parse(sNgaySinh);
+
                 db.KHACHHANGs.Add(kh);
                 db.SaveChanges();
+
                 return RedirectToAction("DangNhap");
             }
 

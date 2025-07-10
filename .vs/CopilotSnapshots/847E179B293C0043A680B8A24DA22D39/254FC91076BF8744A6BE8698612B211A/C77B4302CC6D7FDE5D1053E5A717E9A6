@@ -1,0 +1,5 @@
+﻿@{
+    ViewBag.Title = "Kết quả thanh toán VNPay";
+}
+<h2>Kết quả thanh toán</h2>
+<p>@ViewBag.Message</p>

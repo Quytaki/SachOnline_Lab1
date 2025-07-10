@@ -1,0 +1,42 @@
+﻿@model SachOnline.Models.CHUDE
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>XÁC NHẬN THÔNG TIN CẦN XÓA</h2>
+
+<h3>Bạn có quyết định xóa chủ đề này?</h3>
+<p>@ViewBag.ThongBao</p>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã chủ đề:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaCD)
+        </dd>
+
+        <dt>
+            Tên chủ đề:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenChuDe)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            @Html.ActionLink("VỀ TRANG QUẢN LÝ CHỦ ĐỀ", "Index")
+        </div>
+    }
+</div>

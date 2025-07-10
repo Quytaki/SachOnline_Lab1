@@ -1,0 +1,77 @@
+﻿@model SachOnline.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>ĐIỀU CHỈNH THÔNG TIN KHÁCH HÀNG</h2>
+
+@using (Html.BeginForm("Edit", "KHACHHANGs", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        <label class="control-label col-md-2">Mã khách hàng:</label>
+        <div class="col-md-10">
+            <input type="text" size="70" name="iMaKH" value="@Model.MaKH" readonly />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Họ tên:</label>
+        <div class="col-md-10">
+            <input type="text" size="70" name="iHoTenKH" value="@Model.HoTen" required />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Địa chỉ:</label>
+        <div class="col-md-10">
+            <input type="text" size="70" name="iDiaChiKH" value="@Model.DiaChi" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Số điện thoại:</label>
+        <div class="col-md-10">
+            <input type="number" size="70" name="iDienThoaiKH" value="@Model.DienThoai" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Tên đăng nhập:</label>
+        <div class="col-md-10">
+            <input type="text" size="70" name="iTenDN" value="@Model.TaiKhoan" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Mật khẩu:</label>
+        <div class="col-md-10">
+            <input type="text" size="70" name="iMatKhau" value="@Model.MatKhau" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Ngày sinh:</label>
+        <div class="col-md-10">
+            <input type="datetime" size="70" name="iNgaySinh" value="@Convert.ToDateTime(Model.NgaySinh)" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Email:</label>
+        <div class="col-md-10">
+            <input type="text" size="70" name="iEmail" value="@Model.Email" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Lưu" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("VỀ TRANG QUẢN LÝ KHÁCH HÀNG", "Index")
+</div>

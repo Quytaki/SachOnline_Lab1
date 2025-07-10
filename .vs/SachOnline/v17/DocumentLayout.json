@@ -3,84 +3,236 @@
   "WorkspaceRootPath": "E:\\code\\lt web\\lab1\\SachOnline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\sachonline\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\sachonline\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\models\\momohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:models\\momohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\giohang\\confirmpaymentclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\giohang\\confirmpaymentclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\sachonline\\loginlogout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\sachonline\\loginlogout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\shared\\sachbannhieupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\shared\\sachbannhieupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\shared\\sliderpatial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\shared\\sliderpatial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\controllers\\sachonlinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\controllers\\sachonlinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:controllers\\sachonlinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\sachonline\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\sachonline\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\giohang\\confirmvnpay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\giohang\\confirmvnpay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\controllers\\nhaxuatbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\controllers\\nhaxuatbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\models\\momohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:models\\momohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\nhaxuatban\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\nhaxuatban\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\nhaxuatban\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\nhaxuatban\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\nhaxuatban\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\nhaxuatban\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\nhaxuatban\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\nhaxuatban\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\khachhang\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\khachhang\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\khachhang\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\khachhang\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\khachhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\khachhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\khachhang\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\khachhang\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\khachhang\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\khachhang\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\sach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\sach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\dondathang\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\dondathang\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\sach\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\sach\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\sach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\sach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\sach\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\sach\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\sach\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\sach\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\chudes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\chudes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\chudes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\chudes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\dondathang\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\dondathang\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\dondathang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\dondathang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\chudes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\chudes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\dondathang\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\dondathang\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\dondathang\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\dondathang\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\controllers\\dondathangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\controllers\\dondathangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\chudes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\chudes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\areas\\admin\\views\\chudes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\views\\chudes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\sachonline\\loginlogout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\sachonline\\loginlogout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\shared\\sachbannhieupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\shared\\sachbannhieupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\shared\\sliderpatial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\shared\\sliderpatial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\shared\\chitietsach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\shared\\chitietsach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\shared\\navpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\shared\\navpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\shared\\navpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\user\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\user\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\user\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\user\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\user\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\user\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|E:\\code\\lt web\\lab1\\SachOnline\\views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|e:\\code\\lt web\\lab1\\sachonline\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7855C367-5C3D-4FA5-906E-337539EE20CC}|SachOnline.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -89,77 +241,639 @@
       "VerticalTabListWidth": 174,
       "DocumentGroups": [
         {
-          "DockedHeight": 265,
-          "SelectedChildIndex": 4,
+          "DockedHeight": 522,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T01:02:24.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T01:45:26.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DatHang.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\GioHang\\DatHang.cshtml",
               "RelativeDocumentMoniker": "Views\\GioHang\\DatHang.cshtml",
               "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\GioHang\\DatHang.cshtml",
               "RelativeToolTip": "Views\\GioHang\\DatHang.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T05:59:19.865Z",
+              "WhenOpened": "2025-07-10T01:41:07.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginLogout.cshtml",
-              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\SachOnline\\LoginLogout.cshtml",
-              "RelativeDocumentMoniker": "Views\\SachOnline\\LoginLogout.cshtml",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\SachOnline\\LoginLogout.cshtml",
-              "RelativeToolTip": "Views\\SachOnline\\LoginLogout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T05:59:49.268Z",
+              "DocumentIndex": 3,
+              "Title": "SachOnlineController.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\SachOnlineController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SachOnlineController.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\SachOnlineController.cs",
+              "RelativeToolTip": "Controllers\\SachOnlineController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T01:34:18.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\FilterConfig.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T01:32:12.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T01:32:09.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-10T01:25:59.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\SachOnline\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\SachOnline\\Index.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\SachOnline\\Index.cshtml",
+              "RelativeToolTip": "Views\\SachOnline\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T01:23:49.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GioHangController.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\GioHangController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GioHangController.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\GioHangController.cs",
+              "RelativeToolTip": "Controllers\\GioHangController.cs",
+              "ViewState": "AgIAAJEBAAAAAAAAAAAiwB8BAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T09:27:52.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConfirmVNPAY.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\GioHang\\ConfirmVNPAY.cshtml",
+              "RelativeDocumentMoniker": "Views\\GioHang\\ConfirmVNPAY.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\GioHang\\ConfirmVNPAY.cshtml",
+              "RelativeToolTip": "Views\\GioHang\\ConfirmVNPAY.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T09:23:55.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SachController.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\SachController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\SachController.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\SachController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\SachController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T09:20:35.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Models\\Model1.edmx",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-07-07T09:07:50.629Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAIwFsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T08:43:26.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\UploadController.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\UploadController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T08:35:24.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Views\\Web.config",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Web.config",
+              "RelativeToolTip": "Views\\Web.config",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-07T05:22:41.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "MoMoHelper.cs",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Models\\MoMoHelper.cs",
               "RelativeDocumentMoniker": "Models\\MoMoHelper.cs",
               "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Models\\MoMoHelper.cs",
               "RelativeToolTip": "Models\\MoMoHelper.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAswC8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T08:56:48.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAiwH8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T05:59:34.027Z",
+              "DocumentIndex": 20,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:29:07.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GioHangController.cs",
-              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\GioHangController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GioHangController.cs",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\GioHangController.cs",
-              "RelativeToolTip": "Controllers\\GioHangController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwAkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:13:21.978Z",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\NhaXuatBan\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\NhaXuatBan\\Delete.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\NhaXuatBan\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\NhaXuatBan\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:41:57.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
+              "Title": "NhaXuatBanController.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\NhaXuatBanController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\NhaXuatBanController.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\NhaXuatBanController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\NhaXuatBanController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAwH8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T02:40:53.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\NhaXuatBan\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\NhaXuatBan\\Edit.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\NhaXuatBan\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\NhaXuatBan\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:42:06.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\NhaXuatBan\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\NhaXuatBan\\Create.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\NhaXuatBan\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\NhaXuatBan\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:41:53.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\NhaXuatBan\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\NhaXuatBan\\Details.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\NhaXuatBan\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\NhaXuatBan\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:42:02.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "web.config",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\web.config",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\web.config",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\web.config",
+              "RelativeToolTip": "Areas\\Admin\\Views\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-07T02:16:24.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\KhachHang\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\KhachHang\\Edit.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\KhachHang\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\KhachHang\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:08:38.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\KhachHang\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\KhachHang\\Details.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\KhachHang\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\KhachHang\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:08:33.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\KhachHang\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\KhachHang\\Delete.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\KhachHang\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\KhachHang\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:08:21.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\KhachHang\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\KhachHang\\Create.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\KhachHang\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\KhachHang\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:08:20.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\KhachHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\KhachHang\\Index.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\KhachHang\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\KhachHang\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:07:56.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "KhachHangController.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\KhachHangController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\KhachHangController.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\KhachHangController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\KhachHangController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T02:07:23.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Sach\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Sach\\Create.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Sach\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Sach\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:50:04.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Sach\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Sach\\Delete.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Sach\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Sach\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:49:58.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Sach\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Sach\\Details.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Sach\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Sach\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:49:52.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Sach\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Sach\\Edit.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Sach\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Sach\\Edit.cshtml",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwHIAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:49:47.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Sach\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Sach\\Index.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Sach\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Sach\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:48:18.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\DonDatHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\DonDatHang\\Index.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\DonDatHang\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\DonDatHang\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:37:14.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\DonDatHang\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\DonDatHang\\Edit.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\DonDatHang\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\DonDatHang\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:41:37.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\DonDatHang\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\DonDatHang\\Details.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\DonDatHang\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\DonDatHang\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:37:48.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\DonDatHang\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\DonDatHang\\Delete.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\DonDatHang\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\DonDatHang\\Delete.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAMwD4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:37:42.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\DonDatHang\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\DonDatHang\\Create.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\DonDatHang\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\DonDatHang\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:37:37.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DonDatHangController.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\DonDatHangController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DonDatHangController.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\DonDatHangController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DonDatHangController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:36:19.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\CHUDEs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\CHUDEs\\Create.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\CHUDEs\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\CHUDEs\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:27:26.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\CHUDEs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\CHUDEs\\Index.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\CHUDEs\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\CHUDEs\\Index.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:27:11.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\CHUDEs\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\CHUDEs\\Details.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\CHUDEs\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\CHUDEs\\Details.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:27:37.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Login.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:39:14.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T06:41:16.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\CHUDEs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\CHUDEs\\Edit.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\CHUDEs\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\CHUDEs\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:27:41.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\CHUDEs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\CHUDEs\\Delete.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\CHUDEs\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\CHUDEs\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:27:32.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:16:43.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
               "Title": "SachBanNhieuPartial.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\SachBanNhieuPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\SachBanNhieuPartial.cshtml",
@@ -172,59 +886,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\SachOnline\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\SachOnline\\Index.cshtml",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\SachOnline\\Index.cshtml",
-              "RelativeToolTip": "Views\\SachOnline\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAwCYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 49,
+              "Title": "LoginLogout.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\SachOnline\\LoginLogout.cshtml",
+              "RelativeDocumentMoniker": "Views\\SachOnline\\LoginLogout.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\SachOnline\\LoginLogout.cshtml",
+              "RelativeToolTip": "Views\\SachOnline\\LoginLogout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T05:59:26.746Z",
+              "WhenOpened": "2025-06-23T05:59:49.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConfirmPaymentClient.cshtml",
-              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\GioHang\\ConfirmPaymentClient.cshtml",
-              "RelativeDocumentMoniker": "Views\\GioHang\\ConfirmPaymentClient.cshtml",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\GioHang\\ConfirmPaymentClient.cshtml",
-              "RelativeToolTip": "Views\\GioHang\\ConfirmPaymentClient.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T09:03:58.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SachOnlineController.cs",
-              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\SachOnlineController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SachOnlineController.cs",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\SachOnlineController.cs",
-              "RelativeToolTip": "Controllers\\SachOnlineController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAADwv1IAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T05:55:59.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T05:55:56.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 51,
               "Title": "SliderPatial.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\SliderPatial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\SliderPatial.cshtml",
@@ -237,20 +912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GioHang.cshtml",
-              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\GioHang\\GioHang.cshtml",
-              "RelativeDocumentMoniker": "Views\\GioHang\\GioHang.cshtml",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\GioHang\\GioHang.cshtml",
-              "RelativeToolTip": "Views\\GioHang\\GioHang.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T05:59:40.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 52,
               "Title": "_LayoutUser.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\_LayoutUser.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LayoutUser.cshtml",
@@ -263,20 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ChiTietSach.cshtml",
-              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\ChiTietSach.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\ChiTietSach.cshtml",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\ChiTietSach.cshtml",
-              "RelativeToolTip": "Views\\Shared\\ChiTietSach.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T08:34:05.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 54,
               "Title": "Error.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -289,7 +938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 55,
               "Title": "DangKy.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\User\\DangKy.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\DangKy.cshtml",
@@ -302,7 +951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 53,
               "Title": "NavPartial.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\Shared\\NavPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\NavPartial.cshtml",
@@ -315,20 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T06:41:16.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 56,
               "Title": "DangNhap.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\User\\DangNhap.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\DangNhap.cshtml",
@@ -341,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 57,
               "Title": "XacNhanDonHang.cshtml",
               "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\GioHang\\XacNhanDonHang.cshtml",
               "RelativeDocumentMoniker": "Views\\GioHang\\XacNhanDonHang.cshtml",
@@ -355,16 +991,31 @@
           ]
         },
         {
-          "DockedHeight": 193,
+          "DockedHeight": 73,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 167,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\code\\lt web\\lab1\\SachOnline\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T21:04:40.512Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

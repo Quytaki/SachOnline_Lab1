@@ -1,0 +1,57 @@
+﻿@model SachOnline.Models.NHAXUATBAN
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>XÁC NHẬN THÔNG TIN CẦN XÓA</h2>
+
+<h3>Bạn có quyết định xóa nhà xuất bản này?</h3>
+<h4 class="text-danger">@ViewBag.ThongBao</h4>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã nhà xuất bản:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaNXB)
+        </dd>
+
+        <dt>
+            Tên nhà xuất bản:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenNXB)
+        </dd>
+
+        <dt>
+            Địa chỉ:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiaChi)
+        </dd>
+
+        <dt>
+            Số điện thoại:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DienThoai)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            @Html.ActionLink("VỀ TRANG QUẢN LÝ NHÀ XUẤT BẢN", "Index")
+        </div>
+    }
+</div>

@@ -1,22 +1,25 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using SachOnline.Models;
+using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using System.Net.Mail;
+using System.Text;
 using System.Web;
 using System.Web.Mvc;
-using SachOnline.Models;
-using System.Net.Mail;
-using Newtonsoft.Json.Linq;
-
 
 namespace SachOnline.Controllers
 {
     public class GioHangController : Controller
     {
         SachOnlineEntities4 db = new SachOnlineEntities4();
-
+        private const string vnp_TmnCode = "QVEUFYLT";
+        private const string vnp_HashSecret = "TXQ2WQIIDP6QG1F9BBOSFZS9QV39GQTM";
+        private const string vnp_Url = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
         // GET: GioHang
         public ActionResult GioHang()
         {
@@ -28,7 +31,6 @@ namespace SachOnline.Controllers
             ViewBag.TongSoLuong = TongSoLuong();
             ViewBag.TongTien = TongTien();
             return View(lstGioHang);
-
         }
         public List<GioHang> LayGioHang()
         {
@@ -133,44 +135,79 @@ namespace SachOnline.Controllers
         [HttpPost]
         public ActionResult DatHang(FormCollection f)
         {
-            // Thêm đơn hàng
-            DONDATHANG ddh = new DONDATHANG();
-            KHACHHANG kh = (KHACHHANG)Session["TaiKhoan"];
+            // Lấy tài khoản từ Session
+            KHACHHANG khSession = (KHACHHANG)Session["TaiKhoan"];
             List<GioHang> lstGioHang = LayGioHang();
-            ddh.MaKH = kh.MaKH;
-            ddh.NgayDat = DateTime.Now;
-            var NgayGiao = String.Format("{0:MM/dd/yyyy}", f["NgayGiao"]);
-            ddh.NgayGiao = DateTime.Parse(NgayGiao);
-            ddh.TinhTrangGiaoHang = 1;
-            ddh.DaThanhToan = false;
+
+            // Lấy lại KH từ database để tránh lỗi IEntityChangeTracker
+            KHACHHANG kh = db.KHACHHANGs.SingleOrDefault(k => k.MaKH == khSession.MaKH);
+            if (kh == null)
+            {
+                return RedirectToAction("DangNhap", "User");
+            }
+
+            // Cập nhật địa chỉ nếu cần
+            string diaChiMoi = f["DiaChi"];
+            if (!string.IsNullOrEmpty(diaChiMoi) && diaChiMoi != kh.DiaChi)
+            {
+                kh.DiaChi = diaChiMoi;
+                db.Entry(kh).State = EntityState.Modified;
+                db.SaveChanges();
+
+                // Cập nhật lại thông tin Session nếu thay đổi
+                Session["TaiKhoan"] = kh;
+            }
+
+            // Tạo đơn đặt hàng
+            DONDATHANG ddh = new DONDATHANG
+            {
+                MaKH = kh.MaKH,
+                NgayDat = DateTime.Now,
+                NgayGiao = DateTime.ParseExact(f["NgayGiao"], "yyyy-MM-dd", null),
+                TinhTrangGiaoHang = 1,
+                DaThanhToan = false
+            };
             db.DONDATHANGs.Add(ddh);
             db.SaveChanges();
-
 
             // Thêm chi tiết đơn hàng
             foreach (var item in lstGioHang)
             {
-                CHITIETDATHANG ctdh = new CHITIETDATHANG();
-                ctdh.MaDonHang = ddh.MaDonHang;
-                ctdh.MaSach = item.iMaSach;
-                ctdh.SoLuong = item.iSoLuong;
-                ctdh.DonGia = (decimal)item.dDonGia;
+                CHITIETDATHANG ctdh = new CHITIETDATHANG
+                {
+                    MaDonHang = ddh.MaDonHang,
+                    MaSach = item.iMaSach,
+                    SoLuong = item.iSoLuong,
+                    DonGia = (decimal)item.dDonGia
+                };
                 db.CHITIETDATHANGs.Add(ctdh);
             }
-            db.SaveChanges();
-            // Gửi email xác nhận đơn hàng
-            string emailBody = "Xin chào " + kh.HoTen + ",\n\nCảm ơn bạn đã đặt hàng tại cửa hàng của chúng tôi. Dưới đây là thông tin về đơn hàng của bạn:\n\n";
 
+            db.SaveChanges();
+
+            // Gửi Email xác nhận
+            string emailBody = $"Xin chào {kh.HoTen},\n\nCảm ơn bạn đã đặt hàng tại SachOnline.\n\nChi tiết đơn hàng:\n";
             decimal TongTien = 0;
+
             foreach (var item in lstGioHang)
             {
-                emailBody += "Tên sách: " + item.sTenSach + "\nSố lượng: " + item.iSoLuong.ToString() + "\nĐơn giá: " + item.dDonGia.ToString() + "\n\n";
+                emailBody += $"Tên sách: {item.sTenSach}\nSố lượng: {item.iSoLuong}\nĐơn giá: {item.dDonGia:#,##0}\n\n";
                 TongTien += item.iSoLuong * (decimal)item.dDonGia;
             }
-            emailBody += "Tổng tiền: " + TongTien.ToString() + "\n\nChúng tôi sẽ liên hệ với bạn sớm nhất để xác nhận đơn hàng. Cảm ơn bạn đã mua hàng tại cửa hàng của chúng tôi.\n\nTrân trọng,\n[Your Store Name]";
 
-            GuiEmail(kh.Email, "Thông tin đơn hàng từ [Your Store Name]", emailBody);
+            emailBody += $"Tổng tiền: {TongTien:#,##0} VNĐ\n\nChúng tôi sẽ liên hệ với bạn sớm nhất để xác nhận đơn hàng.\n\nTrân trọng,\nSachOnline";
 
+            try
+            {
+                GuiEmail(kh.Email, "Thông tin đơn hàng từ SachOnline", emailBody);
+            }
+            catch (Exception ex)
+            {
+                // Log lỗi nếu cần
+                TempData["EmailError"] = "Không thể gửi email: " + ex.Message;
+            }
+
+            // Xoá giỏ hàng
             Session["GioHang"] = null;
             return RedirectToAction("XacNhanDonHang", "GioHang");
         }
@@ -187,7 +224,7 @@ namespace SachOnline.Controllers
             SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587)
             {
                 UseDefaultCredentials = false,
-                Credentials = new NetworkCredential("2124802010521@student.tdmu.edu.vn", "enmhtwwgrxusafab"), // KHÔNG có \r\n
+                Credentials = new NetworkCredential("2124802010521@student.tdmu.edu.vn", "enmhtwwgrxusafab"), // KHÔNG có \r\n //mail key
                 EnableSsl = true
             };
 
@@ -206,97 +243,188 @@ namespace SachOnline.Controllers
         {
             return View();
         }
-        public ActionResult Payment()
+
+        public ActionResult PaymentWithVNPay(decimal? amount = null)
         {
-            string endpoint = "https://test-payment.momo.vn/v2/gateway/api/create";
-            string partnerCode = "MOMO0HGO20210817";  // Sửa ở đây
-            string accessKey = "F8BBA842ECF85";
-            string secretKey = "K951B6PE1waDMi640xX08PD3vg6EkVlz";
-            string orderInfo = "Thanh toán đơn hàng";
-            string returnUrl = "https://c2ae-2a09-bac1-7a80-18-00-3c2-1.ngrok-free.app/GioHang/ConfirmPaymentClient";
-            string notifyurl = "https://c2ae-2a09-bac1-7a80-18-00-3c2-1.ngrok-free.app/GioHang/ConfirmPaymentClient";
+            string vnp_Returnurl = ConfigurationManager.AppSettings["vnp_ReturnUrl"];
+            string vnp_Url = ConfigurationManager.AppSettings["vnp_Url"];
+            string vnp_TmnCode = ConfigurationManager.AppSettings["vnp_TmnCode"];
+            string vnp_HashSecret = ConfigurationManager.AppSettings["vnp_HashSecret"];
 
-            string amount = "1000";
-            string orderid = DateTime.Now.Ticks.ToString();
-            string requestId = DateTime.Now.Ticks.ToString();
-            string extraData = "";
-
-            string rawHash = "accessKey=" + accessKey +
-                             "&amount=" + amount +
-                             "&extraData=" + extraData +
-                             "&ipnUrl=" + notifyurl +
-                             "&orderId=" + orderid +
-                             "&orderInfo=" + orderInfo +
-                             "&partnerCode=" + partnerCode +
-                             "&redirectUrl=" + returnUrl +
-                             "&requestId=" + requestId +
-                             "&requestType=captureWallet";
-
-            MoMoSecurity crypto = new MoMoSecurity();
-            string signature = crypto.signSHA256(rawHash, secretKey);
-
-            JObject message = new JObject
-{
-    { "partnerCode", partnerCode },
-    { "accessKey", accessKey },
-    { "requestId", requestId },
-    { "amount", amount },
-    { "orderId", orderid },
-    { "orderInfo", orderInfo },
-    { "redirectUrl", returnUrl },
-    { "ipnUrl", notifyurl },
-    { "extraData", extraData },
-    { "requestType", "captureWallet" },
-    { "signature", signature },
-    { "lang", "vi" }
-};
-
-
-            string responseFromMomo = PaymentRequest.sendPaymentRequest(endpoint, message.ToString());
-
-            if (string.IsNullOrEmpty(responseFromMomo))
+            if (string.IsNullOrEmpty(vnp_TmnCode) || string.IsNullOrEmpty(vnp_HashSecret))
             {
-                return Content("❌ Không nhận được phản hồi từ MoMo. Hãy kiểm tra lại đường dẫn endpoint hoặc kết nối mạng.");
+                return Content("Thiếu cấu hình VNPAY");
             }
 
-            JObject jmessage;
-            try
-            {
-                jmessage = JObject.Parse(responseFromMomo);
-            }
-            catch (Exception ex)
-            {
-                return Content("❌ JSON phản hồi từ MoMo không hợp lệ:<br/>" + responseFromMomo, "text/html");
-            }
+            // Get cart items to calculate the actual total
+            List<GioHang> lstGioHang = LayGioHang();
 
-            if (jmessage["payUrl"] == null)
-            {
-                return Content("❌ Không tìm thấy <b>payUrl</b> trong phản hồi từ MoMo:<br/><pre>" + responseFromMomo + "</pre>", "text/html");
-            }
+            // Use the amount passed from the form or calculate from cart
+            decimal totalAmount = amount ?? (decimal)TongTien();
 
-            return Redirect(jmessage["payUrl"].ToString());
+            // Log the amount for debugging
+            System.Diagnostics.Debug.WriteLine("Payment amount: " + totalAmount);
+
+            // Convert amount to VND (amount * 100)
+            long amountInVnd = (long)(totalAmount * 100);
+
+            // Generate order info
+            long orderId = DateTime.Now.Ticks;
+            DateTime createdDate = DateTime.Now;
+            DateTime expireDate = createdDate.AddMinutes(15);
+
+            VnPayLibrary vnpay = new VnPayLibrary();
+            vnpay.AddRequestData("vnp_Version", "2.1.0");
+            vnpay.AddRequestData("vnp_Command", "pay");
+            vnpay.AddRequestData("vnp_TmnCode", vnp_TmnCode);
+            vnpay.AddRequestData("vnp_Amount", amountInVnd.ToString());
+            vnpay.AddRequestData("vnp_CreateDate", createdDate.ToString("yyyyMMddHHmmss"));
+            vnpay.AddRequestData("vnp_CurrCode", "VND");
+            vnpay.AddRequestData("vnp_IpAddr", Utils.GetIpAddress());
+            vnpay.AddRequestData("vnp_Locale", "vn");
+            vnpay.AddRequestData("vnp_OrderInfo", "Thanh toan don hang: " + orderId);
+            vnpay.AddRequestData("vnp_OrderType", "other");
+            vnpay.AddRequestData("vnp_ReturnUrl", vnp_Returnurl);
+            vnpay.AddRequestData("vnp_TxnRef", orderId.ToString());
+
+            // Only add ExpireDate if needed by your integration
+            // vnpay.AddRequestData("vnp_ExpireDate", expireDate.ToString("yyyyMMddHHmmss"));
+
+            // Store order info in session for verification later
+            Session["VNPay_OrderId"] = orderId;
+            Session["VNPay_Amount"] = amountInVnd;
+
+            // Generate payment URL with proper signature
+            string paymentUrl = vnpay.CreateRequestUrl(vnp_Url, vnp_HashSecret);
+
+            // Log the generated URL for debugging
+            System.Diagnostics.Debug.WriteLine("Payment URL: " + paymentUrl);
+
+            return Redirect(paymentUrl);
         }
 
-
-
-        //Khi thanh toán xong ở cổng thanh toán Momo, Momo sẽ trả về một số thông tin, trong đó có errorCode để check thông tin thanh toán
-        //errorCode = 0 : thanh toán thành công (Request.QueryString["errorCode"])
-        //Tham khảo bảng mã lỗi tại: https://developers.momo.vn/#/docs/aio/?id=b%e1%ba%a3ng-m%c3%a3-l%e1%bb%97i
-        public ActionResult ConfirmPaymentClient(Result result)
+        public ActionResult ConfirmVNPay()
         {
-            //lấy kết quả Momo trả về và hiển thị thông báo cho người dùng (có thể lấy dữ liệu ở đây cập nhật xuống db)
-            string rMessage = result.message;
-            string rOrderId = result.orderId;
-            string rErrorCode = result.errorCode; // = 0: thanh toán thành công
-            return View();
+            string vnp_HashSecret = ConfigurationManager.AppSettings["vnp_HashSecret"];
+            VnPayLibrary vnpay = new VnPayLibrary();
+
+            // Log all request parameters for debugging
+            System.Diagnostics.Debug.WriteLine("VNPAY Callback Parameters:");
+            foreach (string key in Request.QueryString.AllKeys)
+            {
+                System.Diagnostics.Debug.WriteLine($"{key}: {Request.QueryString[key]}");
+                if (!string.IsNullOrEmpty(key) && key.StartsWith("vnp_"))
+                {
+                    vnpay.AddResponseData(key, Request.QueryString[key]);
+                }
+            }
+
+            string vnp_ResponseCode = Request.QueryString["vnp_ResponseCode"];
+            string vnp_TransactionStatus = Request.QueryString["vnp_TransactionStatus"];
+            string vnp_SecureHash = Request.QueryString["vnp_SecureHash"];
+            string vnp_TxnRef = Request.QueryString["vnp_TxnRef"];
+            string vnp_Amount = Request.QueryString["vnp_Amount"];
+
+            bool isValidSignature = vnpay.ValidateSignature(vnp_SecureHash, vnp_HashSecret);
+            System.Diagnostics.Debug.WriteLine($"Signature validation: {isValidSignature}");
+
+            // Check returned order info with session data
+            long orderId = 0;
+            decimal amount = 0;
+            bool isValidOrderInfo = false;
+
+            if (long.TryParse(vnp_TxnRef, out orderId) &&
+                Session["VNPay_OrderId"] != null &&
+                orderId == (long)Session["VNPay_OrderId"])
+            {
+                isValidOrderInfo = true;
+                System.Diagnostics.Debug.WriteLine("Order ID validation: Successful");
+
+                // Validate amount
+                if (Session["VNPay_Amount"] != null &&
+                    decimal.TryParse(vnp_Amount, out amount))
+                {
+                    System.Diagnostics.Debug.WriteLine($"Amount comparison: Expected {Session["VNPay_Amount"]}, Received {amount}");
+                }
+            }
+            else
+            {
+                System.Diagnostics.Debug.WriteLine("Order ID validation: Failed");
+            }
+
+            if (isValidSignature)
+            {
+                if (vnp_ResponseCode == "00" && vnp_TransactionStatus == "00")
+                {
+                    // Payment successful - process order here
+
+                    // For now, just display success message
+                    ViewBag.Message = "Thanh toán thành công. Mã đơn hàng: " + vnp_TxnRef;
+
+                    // Clear session data
+                    Session["GioHang"] = null;
+                    Session["VNPay_OrderId"] = null;
+                    Session["VNPay_Amount"] = null;
+
+                    return View();
+                }
+                else
+                {
+                    // Payment failed or canceled
+                    ViewBag.Message = "Thanh toán không thành công. Mã lỗi: " + vnp_ResponseCode;
+                    return View();
+                }
+            }
+            else
+            {
+                ViewBag.Message = "Có lỗi xảy ra trong quá trình xử lý (Sai chữ ký)";
+                return View();
+            }
         }
 
         [HttpPost]
-        public void SavePayment()
+        public ActionResult VNPayIPN()
         {
-            //cập nhật dữ liệu vào db
-            String a = "";
-        }
+            string vnp_HashSecret = ConfigurationManager.AppSettings["vnp_HashSecret"];
+            VnPayLibrary vnpay = new VnPayLibrary();
 
+            // Get all request data
+            foreach (string s in Request.Form.AllKeys)
+            {
+                if (!string.IsNullOrEmpty(s) && s.StartsWith("vnp_"))
+                {
+                    vnpay.AddResponseData(s, Request.Form[s]);
+                }
+            }
+
+            string vnp_ResponseCode = Request.Form["vnp_ResponseCode"];
+            string vnp_TransactionStatus = Request.Form["vnp_TransactionStatus"];
+            string vnp_SecureHash = Request.Form["vnp_SecureHash"];
+            string vnp_TxnRef = Request.Form["vnp_TxnRef"];
+            string vnp_Amount = Request.Form["vnp_Amount"];
+
+            bool isValidSignature = vnpay.ValidateSignature(vnp_SecureHash, vnp_HashSecret);
+
+            if (isValidSignature)
+            {
+                if (vnp_ResponseCode == "00" && vnp_TransactionStatus == "00")
+                {
+                    // Payment successful - update order status in database
+                    // This is the server-side confirmation
+
+                    return Content("{\"RspCode\":\"00\",\"Message\":\"Confirm Success\"}");
+                }
+                else
+                {
+                    // Payment failed
+                    return Content("{\"RspCode\":\"99\",\"Message\":\"Payment Failed\"}");
+                }
+            }
+            else
+            {
+                return Content("{\"RspCode\":\"97\",\"Message\":\"Invalid Signature\"}");
+            }
+        }
     }
 }
+
